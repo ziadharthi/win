@@ -1,0 +1,37 @@
+body, html { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #7f7f7f; }
+.hero-section {
+background-image: linear-gradient(rgba(116, 115, 115, 0.7), rgba(92, 92, 89, 0.7)), url('');
+height: 50vh; background-position: center; background-size: cover;
+display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center;
+}
+.admin-img { width: 170px; height: 165px; border-radius: 30%; background-color: #606060; border: 4px solid #030303; margin-bottom: 8px; object-position: center 0%; object-fit: cover; padding: 10px; box-shadow: 0 7px 18px rgba(255, 246, 246, 0.3); }
+#countdown { font-size: 15px; font-weight: 600; color: #e0a00b; margin: 23px 0; direction: rtl; background: rgba(71, 70, 70, 0.4); padding: 10px 25px; border-radius: 20px; }
+.conditions-bar { width: 100%; background-color: #4b4a4a; border-top: 1px solid #ffeeba; border-bottom: 1px solid #ffeeba; padding: 20px 0; margin-bottom: 40px; }
+.conditions-container { max-width: 800px; margin: 0 auto; text-align: center; }
+.conditions-container h3 { margin-top: 0; color: #ffbf00; font-size: 24px; }
+.conditions-container ul { list-style-type: none; padding: 0; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; font-size: 13px; color: #ffc30d; font-weight: 500; }
+.video-link { color: #ff0000; text-decoration: underline; font-weight: bold; }
+.container { max-width: 420px; margin: 40px auto; background: rgb(65, 65, 65); padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(156, 151, 151, 0.29); }
+input { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+.error { color: #d9534f; font-size: 13px; text-align: right; margin-bottom: 10px; }
+.agreement-container { display: flex; align-items: flex-start; gap: 12px; margin: 20px 0; text-align: justify; background: #f9f9f9; padding: 12px; border-radius: 8px; border: 1px solid #eee; }
+.agreement-container input[type="checkbox"] { width: 20px; height: 20px; cursor: pointer; }
+.agreement-container label { font-size: 13px; color: #444; line-height: 1.6; cursor: pointer; }
+button#submit { width: 100%; padding: 15px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 18px; font-weight: bold; transition: 0.3s; }
+button#submit:hover { background: #28a745; }
+#winner-btn { display: block; margin: 20px auto; padding: 15px 50px; background: #ffbf00; color: white; border: none; border-radius: 50px; font-size: 22px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+#modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 9999; }
+.modal-content { background: white; width: 350px; margin: 10% auto; padding: 40px; border-radius: 20px; text-align: center; }
+.loader { border: 8px solid #f3f3f3; border-top: 8px solid #ffbf00; border-radius: 50%; width: 60px; height: 60px; animation: spin 1s linear infinite; margin: 20px auto; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.separator { height: 2px; background: #eee; width: 80%; margin: 15px auto; }
+.winner-name { color: #ffbf00; font-size: 36px; margin: 20px 0; }
+.close-btn-modern {
+padding: 12px 35px; background: #333; color: white; border: none; border-radius: 10px;
+font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.3s all ease;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.close-btn-modern:hover { background: #000000; transform: translateY(-3px); box-shadow: 0 6px 15px rgba(0,0,0,0.3); }
+#modal {
+    z-index: 9999; 
+}
